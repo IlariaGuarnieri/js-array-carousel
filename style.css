@@ -45,10 +45,9 @@
   height: 20%;
 }
 
-.btn-arrow{
+.btn-arrow.up{
   position: absolute;
-  top: 50%;
-  left: 10px;
+  top: 40%;
   width: 40px;
   height: 40px;
   background-color: rgba(96, 96, 96, 0.2);
@@ -59,11 +58,23 @@
   transition: all .3s;
 }
 
+
+.btn-arrow.down{
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(96, 96, 96, 0.2);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all .3s;
+  flex-direction: end;
+}
+
 .btn-arrow:hover{
   color: red;
   background-color: white ;
 }
 
-.btn-arrow.up{
-
-}
